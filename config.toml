@@ -1,3 +1,60 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://adrian.pw/
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'adrian price-whelan'
+theme = 'gioia'
+relativeURLs = true
+
+author = "Adrian Price-Whelan"
+title = "Adrian Price-Whelan"
+
+## Hugo Built-in Features
+googleAnalytics = "UA-11936482-16"
+
+## Site Settings
+[params]
+  author = "Adrian Price-Whelan"
+  intro = "Blah de blah Blah."
+  description = "Blip blep bleep bloop."
+  authorimage = "headshot.jpg"
+  dateformat = "Jan 2, 2006"
+
+## Site Meta Settings
+[params.meta]
+  description = "Simple minimalist theme"
+  keywords = "minimalist,blog,goa,hugo,developer"
+
+## Social Accounts
+[params.social]
+github = "adrn"
+linkedin = "adrian-price-whelan-3956a08a"
+twitter = "adrianprw"
+googlescholar = "_wSmxLcAAAAJ"
+stackoverflow = "ampw"
+lastfm = "adrianpw"
+email = "adrianmpw@gmail.com"
+
+## Extras
+[params.extra]
+  copyright = "© 2015-{year} Adrian Price-Whelan"
+  poweredby = true
+  highlightjs = true
+  socialmarkup = true
+  toc = true
+  displayrssicon = false
+
+## Main Menu
+[[menu.main]]
+    name = "about"
+    identifier = "about"
+    weight = 100
+    url = "/about/"
+[[menu.main]]
+    name = "blog"
+    weight = 200
+    identifier = "blog"
+    url = "/blog/"
+[[menu.main]]
+    name = "coderag"
+    identifier = "coderag"
+    weight = 300
+    url = "/coderag/"
