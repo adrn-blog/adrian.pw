@@ -21,10 +21,12 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: "3.10"
+
       - name: Install Python dependencies
         run: python -m pip install requests nbconvert nbformat pyyaml
+
       - name: Convert the Jupyter notebooks
-        run: scripts/render-notebooks
+        run: python scripts/render-notebooks.py
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
