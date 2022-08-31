@@ -15,8 +15,8 @@ pluralizelisttitles = "false"
   author = "Adrian Price-Whelan"
   intro = "astronomy & open-source software"
   # description = "astronomy, software, music"
-  authorimage = "m31-orbits.png"
-  dateformat = "Jan 2, 2006"
+  front_image = "m31-orbits.png"
+  dateformat = "2006-01-02"
 
 ## Site Meta Settings
 [params.meta]
@@ -34,11 +34,9 @@ pluralizelisttitles = "false"
 ## Extras
 [params.extra]
   copyright = "© 2015-2022 Adrian Price-Whelan"
-  poweredby = false
-  highlightjs = true
+  prismjs = true
   socialmarkup = false
   toc = true
-  displayrssicon = false
   footer = "Reach me at adrianmpw@gmail.com"
 
 ## Main Menu
@@ -54,21 +52,24 @@ pluralizelisttitles = "false"
     url = "http://adrian.pw/cv/PriceWhelan-cv.pdf"
 [[menu.main]]
     name = "blog"
-    weight = 200
+    weight = 300
     identifier = "blog"
     url = "/blog/"
 [[menu.main]]
     name = "research"
-    weight = 200
+    weight = 400
     identifier = "research"
     url = "/research/"
 [[menu.main]]
     name = "visualizations"
-    weight = 200
+    weight = 500
     identifier = "visualizations"
     url = "/viz/"
 
 [markup]
+  [markup.highlight]
+    codeFences = false
+
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
