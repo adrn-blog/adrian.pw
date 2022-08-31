@@ -1,7 +1,5 @@
 ---
 title: "About"
-# date: 2022-08-30T21:05:32-04:00
-draft: true
 ---
 
 <img src="/img/alps_circle.png" alt="Author Image" class="center headshot" style="width: 40%; margin-bottom: 20px; margin-top: 20px;"/>
@@ -28,8 +26,9 @@ Fellow at the CCA from 2019 to 2021.
 
 ### Software
 
-I am a member of the Astropy Coordination Committee, a core contributor to Astropy, and
-a maintainer of the `astropy.coordinates` and `astropy.units` subpackages.
+I am a member of the [Astropy](https://www.astropy.org/) Coordination Committee, a core
+contributor to Astropy, and a maintainer of the `astropy.coordinates` and
+`astropy.units` subpackages.
 
 Some other, more specialized Python packages I have written:
 
