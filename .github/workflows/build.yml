@@ -31,7 +31,9 @@ jobs:
       - uses: actions/upload-artifact@v3
         with:
           name: rendered-notebooks
-          path: content/blog
+          path: |
+            content/blog
+            static/blog
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
