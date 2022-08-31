@@ -1,11 +1,10 @@
-baseURL = 'https://adrian.pw/
+baseURL = 'https://adrian.pw/'
 languageCode = 'en-us'
-title = 'adrian price-whelan'
+title = 'apw'
 theme = 'gioia'
 relativeURLs = true
 
 author = "Adrian Price-Whelan"
-title = "Adrian Price-Whelan"
 
 ## Hugo Built-in Features
 googleAnalytics = "UA-11936482-16"
@@ -13,9 +12,9 @@ googleAnalytics = "UA-11936482-16"
 ## Site Settings
 [params]
   author = "Adrian Price-Whelan"
-  intro = "Blah de blah Blah."
-  description = "Blip blep bleep bloop."
-  authorimage = "headshot.jpg"
+  intro = "astronomy & open-source software"
+  # description = "astronomy, software, music"
+  authorimage = "m31-orbits.png"
   dateformat = "Jan 2, 2006"
 
 ## Site Meta Settings
@@ -25,22 +24,21 @@ googleAnalytics = "UA-11936482-16"
 
 ## Social Accounts
 [params.social]
-github = "adrn"
-linkedin = "adrian-price-whelan-3956a08a"
-twitter = "adrianprw"
-googlescholar = "_wSmxLcAAAAJ"
-stackoverflow = "ampw"
-lastfm = "adrianpw"
-email = "adrianmpw@gmail.com"
+  github = "adrn"
+  twitter = "adrianprw"
+  googlescholar = "_wSmxLcAAAAJ"
+  lastfm = "adrianpw"
+  orcid = "0000-0003-0872-7098"
 
 ## Extras
 [params.extra]
-  copyright = "© 2015-{year} Adrian Price-Whelan"
-  poweredby = true
+  copyright = "© 2015-2022 Adrian Price-Whelan"
+  poweredby = false
   highlightjs = true
-  socialmarkup = true
+  socialmarkup = false
   toc = true
   displayrssicon = false
+  footer = "Reach me at adrianmpw@gmail.com"
 
 ## Main Menu
 [[menu.main]]
@@ -49,12 +47,27 @@ email = "adrianmpw@gmail.com"
     weight = 100
     url = "/about/"
 [[menu.main]]
+    name = "cv"
+    weight = 200
+    identifier = "cv"
+    url = "http://adrian.pw/cv/PriceWhelan-cv.pdf"
+[[menu.main]]
     name = "blog"
     weight = 200
     identifier = "blog"
     url = "/blog/"
 [[menu.main]]
-    name = "coderag"
-    identifier = "coderag"
-    weight = 300
-    url = "/coderag/"
+    name = "research"
+    weight = 200
+    identifier = "research"
+    url = "/research/"
+[[menu.main]]
+    name = "visualizations"
+    weight = 200
+    identifier = "visualizations"
+    url = "/viz/"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
