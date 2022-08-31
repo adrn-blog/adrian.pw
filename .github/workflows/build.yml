@@ -28,6 +28,11 @@ jobs:
       - name: Convert the Jupyter notebooks
         run: python scripts/render-notebooks.py
 
+      - uses: actions/upload-artifact@v3
+        with:
+          name: rendered-notebooks
+          path: content/blog
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
