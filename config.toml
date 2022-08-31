@@ -8,6 +8,7 @@ author = "Adrian Price-Whelan"
 
 ## Hugo Built-in Features
 googleAnalytics = "UA-11936482-16"
+pluralizelisttitles = "false"
 
 ## Site Settings
 [params]
@@ -27,8 +28,8 @@ googleAnalytics = "UA-11936482-16"
   github = "adrn"
   twitter = "adrianprw"
   googlescholar = "_wSmxLcAAAAJ"
-  lastfm = "adrianpw"
   orcid = "0000-0003-0872-7098"
+  email = "adrianmpw@gmail.com"
 
 ## Extras
 [params.extra]

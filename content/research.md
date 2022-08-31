@@ -2,6 +2,8 @@
 title: "Research"
 ---
 
+### Overview
+
 My research ranges from mapping dark matter in the Milky Way, to the formation and
 evolution of our Galaxy, to characterizing stellar and binary star populations. I have
 spent a lot of time thinking about surveys of Milky Way stars and how to use these data
