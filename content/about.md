@@ -14,8 +14,8 @@ Astrophysics](https://www.simonsfoundation.org/flatiron/center-for-computational
 (CCA) at the [Flatiron Institute](https://www.simonsfoundation.org/flatiron/) in New
 York City.
 
-<!-- I am also the Assistant Director of Scientific Software at the [Simons
-Foundation](https://www.simonsfoundation.org/). -->
+I am also the Assistant Director of Scientific Software at the [Simons
+Foundation](https://www.simonsfoundation.org/).
 
 I received my PhD in 2016 with advisor [Kathryn V.
 Johnston](http://user.astro.columbia.edu/~kvj/) in the Department of Astronomy at
