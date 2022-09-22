@@ -5,6 +5,7 @@
 # https://github.com/dfm-io/dfm.io/blob/main/scripts/render-notebooks
 
 import re
+import shutil
 import tempfile
 from pathlib import Path
 from subprocess import check_call, CalledProcessError
@@ -62,11 +63,15 @@ def render_notebook(path, metadata):
 
     if "outputs" in resources.keys():
         out_path = Path(f"./static/blog/{slug}")
-        if not out_path.exists():
-            out_path.mkdir(parents=True)
+        out_path.mkdir(parents=True, exist_ok=True)
+
         for key in resources["outputs"].keys():
             with (out_path / key).open("wb") as f:
                 f.write(resources["outputs"][key])
+
+        for filename in metadata.get('other_files', []):
+            file_path = path.parent / filename
+            shutil.copyfile(file_path, out_path / filename)
 
 
 def process_repo(repo):
