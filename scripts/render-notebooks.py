@@ -69,6 +69,7 @@ def render_notebook(path, metadata):
             with (out_path / key).open("wb") as f:
                 f.write(resources["outputs"][key])
 
+        print(list(path.parent.glob("*")))
         for filename in meta.get('other_files', []):
             file_path = path.parent / filename
             shutil.copyfile(file_path, out_path / filename)
