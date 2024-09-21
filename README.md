@@ -5,7 +5,9 @@ To trigger a new build, go to [the Actions page](https://github.com/adrn-blog/ad
 ## Blog posts:
 
 - [![Build post](https://github.com/adrn-blog/post--fisher-information-toy/actions/workflows/build.yml/badge.svg)](https://github.com/adrn-blog/post--fisher-information-toy/actions/workflows/build.yml) - fisher-information-toy
-- [![Build post](https://github.com/adrn-blog/post--probabilistic-graphical-models/actions/workflows/build.yml/badge.svg)](https://github.com/adrn-blog/post--probabilistic-graphical-models/actions/workflows/build.yml) - probabilistic-graphical-models
+- [![Build post](https://github.com/adrn-blog/post--hierarchical-models-2/actions/workflows/build.yml/badge.svg)](https://github.com/adrn-blog/post--hierarchical-models-2/actions/workflows/build.yml) - hierarchical-models-2
+- [![Build post](https://github.com/adrn-blog/post--hierarchical-models-1/actions/workflows/build.yml/badge.svg)](https://github.com/adrn-blog/post--hierarchical-models-1/actions/workflows/build.yml) - hierarchical-models-1
+c- [![Build post](https://github.com/adrn-blog/post--probabilistic-graphical-models/actions/workflows/build.yml/badge.svg)](https://github.com/adrn-blog/post--probabilistic-graphical-models/actions/workflows/build.yml) - probabilistic-graphical-models
 - [![Build post](https://github.com/adrn-blog/post--flexible-density-model-jax/actions/workflows/build.yml/badge.svg)](https://github.com/adrn-blog/post--flexible-density-model-jax/actions/workflows/build.yml) - flexible-density-model-jax
 - [![Build post](https://github.com/adrn-blog/post--matplotlib-rasterize/actions/workflows/build.yml/badge.svg)](https://github.com/adrn-blog/post--matplotlib-rasterize/actions/workflows/build.yml) - matplotlib-rasterize
 - [![Build post](https://github.com/adrn-blog/post--nyc-weather/actions/workflows/build.yml/badge.svg)](https://github.com/adrn-blog/post--nyc-weather/actions/workflows/build.yml) - nyc-weather
