@@ -53,18 +53,6 @@ jobs:
       - name: Build
         run: hugo
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./public
-
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
       - name: Test - Deploy to this repo GitHub Pages
         if: ${{ github.ref != 'refs/heads/main' }}
         id: deployment
