@@ -1,5 +1,13 @@
 {% extends 'markdown/index.md.j2' %}
 
+{% block in_prompt %}
+<p class="prompt-in">Input[{{cell.execution_count}}]:</p>
+{% endblock in_prompt %}
+
+{% block output_prompt %}
+<p class="prompt-out">Output[{{cell.execution_count}}]:</p>
+{%- endblock output_prompt %}
+
 {%- block traceback_line -%}
 ```output
 {{ line.rstrip() | strip_ansi }}
