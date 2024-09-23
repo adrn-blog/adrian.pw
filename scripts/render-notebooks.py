@@ -8,16 +8,17 @@ import re
 import shutil
 import tempfile
 from pathlib import Path
-from subprocess import check_call, CalledProcessError
+from subprocess import CalledProcessError, check_call
 
-import yaml
 import nbformat
+import yaml
 from nbconvert import MarkdownExporter
 from nbconvert.preprocessors import Preprocessor
 from traitlets.config import Config
 
 inline_pat = re.compile(r"\$(.+?)\$", flags=re.M | re.S)
 block_pat = re.compile(r"\$\$(.+?)\$\$", flags=re.M | re.S)
+this_path = Path(__file__).parent
 
 
 class CustomPreprocessor(Preprocessor):
@@ -38,7 +39,7 @@ class CustomPreprocessor(Preprocessor):
             cell.source = cell.source.strip()
         else:
             text = "$$".join(
-                inline_pat.sub(r"`$\1$`", t) for t in cell.source.split("$$")
+                inline_pat.sub(r"$\1$", t) for t in cell.source.split("$$")
             )
             cell.source = block_pat.sub(r"<div>$$\1$$</div>", text)
         return cell, resources
@@ -53,7 +54,9 @@ def render_notebook(path, metadata):
 
     c = Config()
     c.MarkdownExporter.preprocessors = [CustomPreprocessor]
-    markdown_exporter = MarkdownExporter(config=c)
+    markdown_exporter = MarkdownExporter(
+        config=c, template_file=str(this_path / "custom_md.j2")
+    )
     markdown, resources = markdown_exporter.from_notebook_node(notebook)
     markdown = f"---\n{metadata.strip()}\n---\n\n" + markdown
 
@@ -69,7 +72,7 @@ def render_notebook(path, metadata):
             with (out_path / key).open("wb") as f:
                 f.write(resources["outputs"][key])
 
-        for filename in meta.get('other_files', []):
+        for filename in meta.get("other_files", []):
             file_path = path.parent / filename
             shutil.copyfile(file_path, out_path / filename)
 
