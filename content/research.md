@@ -11,7 +11,12 @@ sprints](https://gaia.lol/).
 
 [My full publication list is available here.](https://adrian.pw/cv/PriceWhelan-pubs.pdf)
 
-### In popular media
+### Popular media and public outreach
+
+Recordings of public outreach talks:
+
+- [How Invisible Forces Shape Galaxies](https://www.youtube.com/watch?v=l_p96HzQ07c) (a
+  talk and planetarium show at the Liberty Science Center)
 
 A sampling of articles in popular media about my work:
 

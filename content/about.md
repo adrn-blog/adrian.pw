@@ -7,9 +7,11 @@ title: "About"
 
 ### Short Bio
 
-I am currently an Associate Research Scientist and leader of the [Galactic Dynamics
-group](https://www.simonsfoundation.org/flatiron/center-for-computational-astrophysics/dynamics/)
-at the [Center for Computational
+I am an Associate Research Scientist and leader of the [Nearby
+Universe](https://www.simonsfoundation.org/flatiron/center-for-computational-astrophysics/dynamics/)
+and [Astronomical
+Data](https://www.simonsfoundation.org/flatiron/center-for-computational-astrophysics/astronomical-data/)
+groups at the [Center for Computational
 Astrophysics](https://www.simonsfoundation.org/flatiron/center-for-computational-astrophysics/)
 (CCA) at the [Flatiron Institute](https://www.simonsfoundation.org/flatiron/) in New
 York City.
@@ -17,7 +19,7 @@ York City.
 I am also the Assistant Director of Scientific Software at the [Simons
 Foundation](https://www.simonsfoundation.org/).
 
-I received my PhD in 2016 with advisor [Kathryn V.
+I received my PhD in 2016 with [Kathryn V.
 Johnston](http://user.astro.columbia.edu/~kvj/) in the Department of Astronomy at
 Columbia University. I was then a Lyman Spitzer, Jr. Postdoctoral Fellow in the
 Department of Astrophysical Sciences at Princeton University. I was a Flatiron Research
@@ -26,8 +28,8 @@ Fellow at the CCA from 2019 to 2021.
 
 ### Software
 
-I am a member of the [Astropy](https://www.astropy.org/) Coordination Committee, a core
-contributor to Astropy, and a maintainer of the `astropy.coordinates` and
+I am a former member of the [Astropy](https://www.astropy.org/) Coordination Committee,
+a core contributor to Astropy, and a maintainer of the `astropy.coordinates` and
 `astropy.units` subpackages.
 
 Some other, more specialized Python packages I have written:

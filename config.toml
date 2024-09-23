@@ -33,7 +33,7 @@ pluralizelisttitles = "false"
 
 ## Extras
 [params.extra]
-  copyright = "© 2015-2022 Adrian Price-Whelan"
+  copyright = "© 2015-2024 Adrian Price-Whelan"
   prismjs = true
   socialmarkup = false
   toc = true
