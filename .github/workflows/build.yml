@@ -37,6 +37,8 @@ jobs:
 
       - name: Convert the Jupyter notebooks
         run: python scripts/render-notebooks.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - uses: actions/upload-artifact@v4
         with:

@@ -101,10 +101,18 @@ def process_repo(repo):
 
 
 if __name__ == "__main__":
+    import os
+
     import requests
 
     url = "https://api.github.com/orgs/adrn-blog/repos"
+    headers = {}
+    token = os.environ.get("GITHUB_TOKEN")
+    if token:
+        headers["Authorization"] = f"token {token}"
+
     with requests.Session() as s:
+        s.headers.update(headers)
         while True:
             r = s.get(url)
             r.raise_for_status()
