@@ -3,9 +3,8 @@ title: "Research"
 ---
 
 My research ranges from mapping dark matter in the Milky Way, to the formation and
-evolution of our Galaxy, to characterizing stellar and binary star populations. I have
-spent a lot of time thinking about surveys of Milky Way stars and how to use these data
-to infer its structure and dynamical history. I am particularly excited about the
+evolution of our Galaxy, to characterizing stellar, binary star, and exoplanet
+populations throughout the Galaxy. I like working with large stellar surveys like the
 [*Gaia* mission](https://www.cosmos.esa.int/web/gaia) and am a co-organizer of the [Gaia
 sprints](https://gaia.lol/).
 

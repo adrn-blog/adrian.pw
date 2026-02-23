@@ -7,7 +7,7 @@ title: "About"
 
 ### Short Bio
 
-I am an Associate Research Scientist and leader of the [Nearby
+I am a Research Scientist and leader of the [Nearby
 Universe](https://www.simonsfoundation.org/flatiron/center-for-computational-astrophysics/dynamics/)
 and [Astronomical
 Data](https://www.simonsfoundation.org/flatiron/center-for-computational-astrophysics/astronomical-data/)
@@ -29,12 +29,14 @@ Fellow at the CCA from 2019 to 2021.
 ### Software
 
 I am a former member of the [Astropy](https://www.astropy.org/) Coordination Committee,
-a core contributor to Astropy, and a maintainer of the `astropy.coordinates` and
-`astropy.units` subpackages.
+a current member of the Astropy Strategic Planning Committee, a core contributor to
+Astropy, and a maintainer of the `astropy.coordinates` and `astropy.units` subpackages.
 
-Some other, more specialized Python packages I have written:
+Some other, more specialized Python packages I have written or contributed to:
 
 - [**Gala**](https://github.com/adrn/gala): For Galactic and gravitational dynamics.
+- [**Galax**](https://github.com/GalacticDynamics/galax): Galactic and gravitational
+  dynamics in JAX.
 - [**pyia**](https://github.com/adrn/pyia): For working with data from the Gaia Mission.
 - [**schwimmbad**](https://github.com/adrn/schwimmbad): Provides a uniform interface to
   parallel processing pools and enables switching easily between local development
