@@ -11,19 +11,23 @@ conferences and other events. He was a creative, generous, and kind person, and 
 be missed.
 
 Carl was one of the first (and certainly the most prolific) to apply matched filters to
-search for stellar streams in catalog data from large photometric surveys like the
-SDSS and Pan-STARRS. Stellar streams around the Milky Way are the remnants of globular
-clusters and dwarf galaxies that have been pulled apart by the tidal forces of the
-Galaxy. They are important tracers of the Milky Way's dark matter distribution, and they
-are also interesting in their own right as a record of the Galaxy's accretion history.
-Carl is responsible for discovering many of the first thin stellar streams (likely
-formed from fully-disrupted star clusters), which are also very sensitive tools for
-constraining the presence of (otherwise undetectable) dark matter substructure in the
-Milky Way.
+search for stellar streams in catalog data from large photometric surveys (e.g.,
+[some](https://arxiv.org/abs/astro-ph/0604332)
+[early](https://arxiv.org/abs/astro-ph/0605396)
+[papers](https://arxiv.org/abs/astro-ph/0609449)) like the [Sloan Digital Sky Survey
+(SDSS)](https://www.sdss.org/). Stellar streams around the Milky Way are the remnants of
+globular clusters and dwarf galaxies that have been pulled apart by the tidal forces of
+the Galaxy. They are important tracers of the Milky Way's dark matter distribution, and
+they are also interesting in their own right as a record of the Galaxy's accretion
+history. Carl is responsible for discovering many of the first thin stellar streams
+(likely formed from fully-disrupted star clusters), which are also very sensitive tools
+for constraining the presence of (otherwise undetectable) dark matter substructures in
+the Milky Way.
 
-One of the first streams Carl discovered was the GD-1 stream (named after Grillmair &
-Dionatos, though they didn't go on to find streams 2, 3, etc. together!). GD-1 is my
-favorite stream and has been an important focus of [my
+One of the first streams Carl discovered was the [GD-1
+stream](https://arxiv.org/abs/astro-ph/0604332) (named after Grillmair & Dionatos,
+though they didn't go on to find streams 2, 3, etc. together!). GD-1 is my favorite
+stream and has been an important focus of [my
 research](https://ui.adsabs.harvard.edu/abs/2018ApJ...863L..20P/abstract) for several
 years. It is one of the longest (in angular extent) and most-studied streams around the
 Milky Way because it is relatively nearby and seems to show [evidence of perturbations
@@ -38,16 +42,17 @@ Era](https://ui.adsabs.harvard.edu/abs/2025NewAR.10001713B/abstract).
 Carl's method for finding streams was to apply a series of matched filters to select
 stars in color-magnitude space that are consistent with an old, metal-poor stellar
 population, and to scan through a range of distances. He would turn this sequence of
-filtered images into a movie, watch it, stretch the video, and rewatch. It was
-very hands-on, but he was incredibly effective at identifying faint patterns in the
-filtered data. Carl was also colorblind — we sometimes joked about whether this gave him
-an unfair advantage in finding patterns in his black-and-white filtered images. He
-tried many automated (early machine-vision) methods for finding streams, but he always
-came back to his original method because it was so effective.
+filtered images into a movie, watch it, stretch the video, and rewatch. It was very
+hands-on, but he was incredibly effective at identifying faint patterns in the filtered
+data. Carl was also colorblind — we sometimes joked about whether this gave him an
+unfair advantage in finding patterns in his black-and-white filtered images. He tried
+many automated (early machine-vision) methods for finding streams (e.g., using the
+[Hough transform](https://ui.adsabs.harvard.edu/abs/2004ASPC..327..276G/abstract)), but
+he always came back to his original method (his eyes) because it was so effective.
 
-I later learned that this work was just one part of his scientifically diverse and
-atypical career, having also worked on Spitzer, instrumentation at Palomar, among other
-things.
+I later learned that his work on streams was just one part of his scientifically diverse
+and atypical career, having also worked on Spitzer, instrumentation at Palomar, among
+other things.
 
 He was also full of completely insane stories from his other life as an avid glider
 pilot. I remember one about how he spent his time in his 20s. I believe he was living in
